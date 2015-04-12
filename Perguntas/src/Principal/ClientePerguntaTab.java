@@ -101,6 +101,13 @@ public class ClientePerguntaTab extends JFrame implements ActionListener {
 
 	public void actionPerformed(ActionEvent e) {
 		try {
+  
+			
+		    if(e.getSource() == botao1){
+		    	usuario.setAlternativa('a');
+		    }
+		    
+			
 			byte dados[] = new String("Servidor" + ": "
 					+ campo.getText()).getBytes();
 
