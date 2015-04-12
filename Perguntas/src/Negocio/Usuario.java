@@ -2,9 +2,9 @@ package Negocio;
 
 public class Usuario {
 	private String Nome;
-	private String Alternativa;
+	private char Alternativa;
 
-	public Usuario(String nome, String alternativa) {
+	public Usuario(String nome, char alternativa) {
 
 		Nome = nome;
 		Alternativa = alternativa;
@@ -18,11 +18,11 @@ public class Usuario {
 		Nome = nome;
 	}
 
-	public String getAlternativa() {
+	public char getAlternativa() {
 		return Alternativa;
 	}
 
-	public void setAlternativa(String alternativa) {
+	public void setAlternativa(char alternativa) {
 		Alternativa = alternativa;
 	}
 
