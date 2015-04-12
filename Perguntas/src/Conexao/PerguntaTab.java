@@ -36,7 +36,7 @@ public class PerguntaTab extends JFrame implements ActionListener {
     public PerguntaTab() throws IOException {
         nome = JOptionPane.showInputDialog(null, "Digite o seu nome");
 
-        setTitle("Chat Multicast - Usuário " + nome);
+        setTitle("Perguntas - Usuário " + nome);
 
         area = new JTextArea("Chat iniciado.\n");
 
@@ -64,8 +64,8 @@ public class PerguntaTab extends JFrame implements ActionListener {
     }
 
     public static void main(String[] programa) throws IOException {
-        PerguntaTab chat = new PerguntaTab();
-        chat.addWindowStateListener(new WindowAdapter() {
+        PerguntaTab pergunta = new PerguntaTab();
+        pergunta.addWindowStateListener(new WindowAdapter() {
             public void windowClosing(WindowEvent evento) {
                 System.exit(0);
             }
