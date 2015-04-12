@@ -1,4 +1,4 @@
-package Conexao;
+package Principal;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
